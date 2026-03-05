@@ -8,7 +8,7 @@ import Footer from "./layout/footer";
 export default function Home() {
   return (
     <>
-      <main>
+      <main className="box-border">
         <Header />
         <Hero />
         <Feature />

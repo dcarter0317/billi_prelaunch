@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
    <>
-     <section className="flex items-center justify-between px-6 pt-6 mt-3 border-t border-gray-600">
+      <section className="flex flex-col md:flex-row items-center justify-around md:justify-between px-6 py-4 mt-3 border-b border-gray-600 gap-4 md:gap-0">
        <Link href="/">
         <Image src="/assets/billi-header-logo-dark.svg" alt="Billi Logo" width={100} height={40} />
        </Link>
