@@ -8,7 +8,7 @@ const whatsComing = () => {
     <>
 
      <section id="security" className="flex items-center justify-between py-16 max-w-7xl mx-auto px-5">
-       <div>
+       <div className="max-w-lg">
           <h2 className="text-3xl font-bold mb-2">What's Coming</h2>
           <p className="text-secondary mb-6">
             Billi is more than just a tracker. It's a financial bodyguard designed with precision and high-level security.
