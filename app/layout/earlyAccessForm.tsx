@@ -45,10 +45,10 @@ export default function EarlyAccessForm() {
   }
 
   return (
-    <div className="w-full max-w-md px-4">
+    <div className="w-full max-w-3xl px-6">
       <form
         onSubmit={handleSubmit}
-        className="relative flex flex-col gap-4 border border-tertiary rounded-3xl md:rounded-4xl px-4 md:px-6 py-4 md:py-5"
+        className="relative flex flex-col gap-4 border border-tertiary rounded-3xl md:rounded-4xl px-4 md:px-6 py-2"
       >    
         <div className="flex flex-col md:flex-row items-stretch md:items-center gap-3 md:gap-4">
           <svg
@@ -71,9 +71,9 @@ export default function EarlyAccessForm() {
           <button
             type="submit"
             disabled={loading}
-            className="whitespace-nowrap rounded-full border border-tertiary bg-tertiary px-5 py-2 font-bold text-black disabled:opacity-50 text-sm md:text-base"
+            className="whitespace-nowrap rounded-full border border-tertiary bg-tertiary px-6 py-2 font-bold text-black disabled:opacity-50 text-sm md:text-base"
           >
-            {loading ? 'Sending...' : 'Get Access'}
+            {loading ? 'Sending...' : 'Sign Up for Early Access'}
           </button>
         </div>
       </form>

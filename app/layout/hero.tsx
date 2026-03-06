@@ -6,7 +6,7 @@ const hero = () => {
   return (
     <>
       <section className="flex flex-col items-center text-center py-8 px-4 md:py-16">
-        <div className='flex items-center gap-4 mb-4 rounded-md border border-tertiary px-4 py-2'>
+        <div className='flex items-center gap-4 mb-4 rounded-4xl border border-tertiary px-4 py-2'>
           <Image src="/assets/bullet-point.svg" alt="Bullet Point" width={8} height={8} />
           <p className="text-tertiary text-sm uppercase font-bold">join the waitlist</p>
         </div>

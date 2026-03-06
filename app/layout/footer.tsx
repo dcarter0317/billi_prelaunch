@@ -15,7 +15,7 @@ const Footer = () => {
             <Link className='hover:text-white' href="mailto:info@dcartdevelopment.com?subject=Contact%20Billi%20Inquiry">Contact</Link>
           </nav>
       </section>
-      <section className="text-center text-sm text-secondary mb-8">
+      <section className="text-center text-sm text-secondary my-8">
         &copy; {new Date().getFullYear()} Billi is a product of Dcart Development. All rights reserved. Sign up for early access on iOS and Android.
       </section>
     </>
