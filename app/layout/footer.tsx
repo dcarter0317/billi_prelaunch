@@ -16,7 +16,7 @@ const Footer = () => {
           </nav>
       </section>
       <section className="text-center text-sm text-secondary mb-8">
-        &copy; {new Date().getFullYear()} Billi is a product of Dcart Development. All rights reserved. Available now for early access on iOS and Android.
+        &copy; {new Date().getFullYear()} Billi is a product of Dcart Development. All rights reserved. Sign up for early access on iOS and Android.
       </section>
     </>
   )
