@@ -12,7 +12,7 @@ const hero = () => {
         </div>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 md:mb-6">
-          Take Control of Every Bill. <br /> 
+          Take Control of Your Budget. <br /> 
           <span className="text-tertiary">Effortlessly.</span>
         </h1>
         <p className="text-secondary text-base md:text-lg px-4">
